@@ -13,6 +13,7 @@ I know how to build the structural foundation of your pages:
 - **2-Column Grids**: Building standard split layouts (like Hero and CTA sections) using CSS Grid.
 - **12-Column Advanced Grids**: Creating complex, overlapping layouts using `repeat(12, 1fr)` and column spanning (e.g., spanning cols 1-8 for content, cols 6-12 for images).
 - **Flexbox Layouts**: Building horizontal bars (like Navigation) using flex row, space-between, and wrap controls.
+- **Section Overlaps**: Using negative margins (e.g., `_margin: {"bottom": "-70"}`) on containers to pull sections upwards and create layered depth effects.
 - **Responsive Collapse**: Implementing breakpoint overrides (e.g., forcing a 2-column grid to become a 1-column grid on tablets).
 
 ## 🎨 Styling & Theming Skills
@@ -48,19 +49,22 @@ I can reliably generate these specific types of UI components:
 
 ### 4. Semantic Lists & Cards
 - Building grids of cards (like services or features).
-- Overriding default `div` tags with semantic `<ul>` and `<li>` tags.
+- Overriding default `div` tags with semantic `<ul>`, `<li>`, and `<span>` tags using `customTag`.
 - Resetting default browser list styling using injected CSS.
-- Integrating SVG icons directly from the WordPress media library into cards.
+- Integrating icons from both SVG libraries and font libraries (like Themify).
+
+### 5. Dynamic WordPress Data
+- Implementing dynamic elements tied directly to WordPress post data.
+- Configuring the built-in `post-reading-time` element with custom suffixes.
 
 ---
 
 ## 🚀 What I Can't Do Yet (Training Needed)
 To be fully capable of building an entire site, I still need examples of:
 
-1. **Dynamic Data**: How Bricks handles pulling dynamic content (like `{post_title}` or ACF fields).
-2. **Complex Media**: Carousels, sliders, or video background integrations.
-3. **Forms**: The exact JSON structure for native Bricks forms.
-4. **Footers**: Multi-column footer layouts with widget areas or complex sub-menus.
-5. **Query Loops**: How Bricks structures repeater elements for blog posts or custom post types.
+1. **Complex Media**: Carousels, sliders, or video background integrations.
+2. **Forms**: The exact JSON structure for native Bricks forms.
+3. **Footers**: Multi-column footer layouts with widget areas or complex sub-menus.
+4. **Query Loops**: How Bricks structures repeater elements for blog posts or custom post types.
 
 > **Want me to learn these?** Just copy the element in Bricks, paste the JSON, and provide a screenshot!

@@ -50,6 +50,9 @@ Bricks Builder elements are represented as a **JSON array** of element objects. 
 - `icon` — Icon element
 - `video` — Video element
 
+### Dynamic Data (WordPress)
+- `post-reading-time` — Post reading time (supports `suffix` property)
+
 ### Navigation
 - `logo` — Site logo (has `logoText` and `logo` image properties)
 - `nav-nested` — Responsive navigation wrapper with mobile menu support
@@ -93,11 +96,12 @@ The `settings` object varies by element type but commonly includes:
 - `_flexShrink` — Flex shrink value
 
 ### Content Properties
-- `tag` — HTML tag (`"h1"`, `"h2"`, `"p"`, `"ul"`, `"li"`, `"figure"`)
+- `tag` — HTML tag (`"h1"`, `"h2"`, `"p"`, `"ul"`, `"li"`, `"figure"`, `"custom"`)
+- `customTag` — Required when `tag` is `"custom"` (e.g., `"span"`)
 - `text` — Text content
 - `link` — Link object: `{ "type": "external", "url": "#" }`
 - `image` — Image object: `{ "url": "...", "external": true, "filename": "..." }`
-- `icon` — Icon object: `{ "library": "svg", "svg": { "id": 123, "url": "..." } }`
+- `icon` — Icon object: Supports SVG upload (`{"library": "svg", "svg": {"id": 123}}`) or font icons (`{"library": "themify", "icon": "ti-heart"}`)
 
 ## Global Classes
 
