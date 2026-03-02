@@ -12,9 +12,10 @@ All known CSS custom properties (design tokens) used in the Bricks Builder desig
 | `--container-max-width` | Maximum container width |
 | `--grid-1` | Single column grid template |
 | `--grid-2` | Two-column grid template |
+| `--grid-gap` | Uniform gap for grid layouts |
 | `--w-fit` | Fit-content width |
 
-> **Expected** (not yet confirmed): `--grid-3`, `--grid-4`
+> **Expected** (not yet confirmed): `--grid-3`, `--grid-4`, `--grid-12`
 
 ## Spacing
 
@@ -53,6 +54,7 @@ All known CSS custom properties (design tokens) used in the Bricks Builder desig
 |---|---|
 | `--bg-color` | Default background color |
 | `--color-light` | Light accent background (dropdown hover) |
+| `--neutral-ultra-light` | Very light neutral background |
 | `--transparent-bg` | Transparent background |
 
 ### Buttons

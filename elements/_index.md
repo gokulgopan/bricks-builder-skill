@@ -22,6 +22,7 @@
 |---|---------|-------------|------|
 | 1 | CTA 1 | Two-column CTA: heading (h2) + description + buttons + image (16:9). CSS Grid. | [cta-1.md](./composite/cta-1.md) |
 | 2 | Hero 1 | Two-column hero: heading (h1) + description + buttons + image (1:1). CSS Grid. | [hero-1.md](./composite/hero-1.md) |
+| 3 | Services Grid 1 | 12-col grid with sticky left content and staggered service cards (SVG icons) on right. | [services-grid-1.md](./composite/services-grid-1.md) |
 
 ### Layout
 _No elements yet_
@@ -40,4 +41,4 @@ _No elements yet_
 
 ---
 
-**Total Elements**: 3 | **Shared Class Files**: 4
+**Total Elements**: 4 | **Shared Class Files**: 4

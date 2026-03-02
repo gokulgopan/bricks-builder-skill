@@ -63,7 +63,8 @@ The `settings` object varies by element type but commonly includes:
 
 ### Styling Properties
 - `_cssGlobalClasses` — Array of global class IDs applied to the element
-- `_typography` — Font family, size, weight, color, line-height
+- `_cssCustom` — Custom CSS injected directly into the component (native Bricks feature)
+- `_typography` — Font family, size, weight, letter-spacing, color, line-height
 - `_typography:hover` — Hover state typography overrides
 - `_background` — Background color, image, gradient
 - `_background:hover` — Hover state background overrides
@@ -79,17 +80,24 @@ The `settings` object varies by element type but commonly includes:
 - `_display` — Display type (`"flex"`, `"grid"`)
 - `_direction` — Flex direction (`"row"`, `"column"`)
 - `_flexWrap` — Flex wrap
-- `_alignItems` / `_alignItemsGrid` — Alignment
+- `_alignItems` / `_alignItemsGrid` — Vertical alignment
+- `_alignContentGrid` — Content alignment inside grid
+- `_justifyContent` — Horizontal alignment
 - `_columnGap` / `_rowGap` — Gap values
-- `_gridTemplateColumns` — CSS Grid template columns
-- `_gridGap` — CSS Grid gap
+- `_gridTemplateColumns` — CSS Grid template columns (`var(--grid-2)`, `repeat(12, 1fr)`)
+- `_gridTemplateRows` — CSS Grid template rows (`repeat(4, 1fr)`)
+- `_gridGap` — CSS Grid gap (`var(--grid-gap)`, `3rem`)
+- `_gridItemColumnSpan` — Grid item column span (`1 / 9`, `6 / -1`, `span 2`)
+- `_gridItemRowSpan` — Grid item row span (`1`, `span 2`)
+- `_order` — CSS order property (e.g., `-1`)
 - `_flexShrink` — Flex shrink value
 
 ### Content Properties
-- `tag` — HTML tag (e.g., `"h2"`, `"figure"`)
+- `tag` — HTML tag (`"h1"`, `"h2"`, `"p"`, `"ul"`, `"li"`, `"figure"`)
 - `text` — Text content
 - `link` — Link object: `{ "type": "external", "url": "#" }`
 - `image` — Image object: `{ "url": "...", "external": true, "filename": "..." }`
+- `icon` — Icon object: `{ "library": "svg", "svg": { "id": 123, "url": "..." } }`
 
 ## Global Classes
 
