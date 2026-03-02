@@ -24,6 +24,8 @@
 | 2 | Hero 1 | Two-column hero: heading (h1) + description + buttons + image (1:1). CSS Grid. | [hero-1.md](./composite/hero-1.md) |
 | 3 | Services Grid 1 | 12-col grid with sticky left content and staggered service cards (SVG icons) on right. | [services-grid-1.md](./composite/services-grid-1.md) |
 | 4 | Single Blog Hero | Multi-container overlap with background image, author card, and dynamic meta elements. | [single-blog-hero.md](./composite/single-blog-hero.md) |
+| 5 | Estatein Banner | Dark-mode split hero with fluid typography, flex column-reverse, and complex CSS 3D scroll animations (`_interactions`). | [estatein-banner.md](./composite/estatein-banner.md) |
+| 6 | Metric Hero | Centered flex layout with dual constraints (content max-width vs container max-width) and a Flex→Grid responsive logo cloud. | [metric-hero.md](./composite/metric-hero.md) |
 
 ### Layout
 _No elements yet_
@@ -42,4 +44,4 @@ _No elements yet_
 
 ---
 
-**Total Elements**: 5 | **Shared Class Files**: 4
+**Total Elements**: 7 | **Shared Class Files**: 4

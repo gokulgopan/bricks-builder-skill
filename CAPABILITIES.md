@@ -10,9 +10,12 @@ As you add more examples to the library, these capabilities will expand.
 I know how to build the structural foundation of your pages:
 
 - **Universal Section Pattern**: Creating proper `<section>` wrappers with inner layout containers.
+- **Centered Stacks**: Building perfect visually-centered columns by using `text-align: center`, `align-items: center`, and constrained `_widthMax` properties.
 - **2-Column Grids**: Building standard split layouts (like Hero and CTA sections) using CSS Grid.
 - **12-Column Advanced Grids**: Creating complex, overlapping layouts using `repeat(12, 1fr)` and column spanning (e.g., spanning cols 1-8 for content, cols 6-12 for images).
 - **Flexbox Layouts**: Building horizontal bars (like Navigation) using flex row, space-between, and wrap controls.
+- **Responsive Direction Swap**: Reversing flex direction on smaller screens (e.g., swapping a `row` to `column-reverse` to ensure images stack above text on mobile).
+- **Flex-to-Grid Morphing**: Dynamically changing an element from a `Flexbox Row` on desktop to a `CSS Grid` on mobile to handle complex stacking (e.g., Logo Clouds).
 - **Section Overlaps**: Using negative margins (e.g., `_margin: {"bottom": "-70"}`) on containers to pull sections upwards and create layered depth effects.
 - **Responsive Collapse**: Implementing breakpoint overrides (e.g., forcing a 2-column grid to become a 1-column grid on tablets).
 
@@ -25,8 +28,10 @@ I know how to style elements to match your design system:
   - Colors: `var(--bg-color)`, `var(--text)`
   - Typography: `var(--text-l)`, `var(--leading-relaxed)`
   - Borders: `var(--radius-s)`
+- **Fluid Typography**: Utilizing CSS `clamp()` functions directly in the font-size settings for text that scales perfectly across devices without manual breakpoint overrides.
 - **Hover & Interactive States**: Applying `:hover` overrides for backgrounds, borders, and text colors.
-- **Custom CSS Injection**: Writing raw CSS into the native `_cssCustom` property for things Bricks settings can't handle (like staggered `nth-child` grid layouts).
+- **Custom CSS Injection**: Writing raw CSS into the native `_cssCustom` property for things Bricks settings can't handle (like staggered `nth-child` grid layouts or complex 3D CSS keyframe animations).
+- **Native Interactions**: Building scroll-triggered animations (e.g., `zoomIn` when `enterView`) using the Bricks `_interactions` array.
 
 ## 🧱 Component-Specific Skills
 I can reliably generate these specific types of UI components:

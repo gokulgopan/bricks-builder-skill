@@ -74,10 +74,14 @@ The `settings` object varies by element type but commonly includes:
 - `_border` — Border width, color, radius, style
 - `_border:hover` — Hover state border overrides
 - `_padding` — Padding (top, right, bottom, left)
+- `_margin` — Margin (top, right, bottom, left)
 - `_width` / `_widthMax` — Width and max-width
+- `_height` / `_heightMin` / `_heightMax` — Height controls
 - `_aspectRatio` — Aspect ratio (e.g., `"16 / 9"`)
 - `_objectFit` — Object-fit for images (e.g., `"cover"`)
 - `_cssTransition` — CSS transition value
+- `_zIndex` — Z-index value
+- `_interactions` — Array of native Bricks interactions (scroll animations, clicks). Example: `[{"trigger": "enterView", "action": "startAnimation", "animationType": "zoomIn"}]`
 
 ### Flex / Grid Layout Properties
 - `_display` — Display type (`"flex"`, `"grid"`)
